@@ -7,6 +7,3 @@ def call(name){
 
 }
 
-def add(a,b){
-  echo "Adding Numbers $(a+b}"
-}
