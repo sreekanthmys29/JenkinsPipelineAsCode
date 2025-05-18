@@ -8,5 +8,5 @@ def call(name){
 }
 
 def add(a,b){
-  return a+b
+  echo "Adding Numbers $(a+b}"
 }
