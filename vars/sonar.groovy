@@ -1,6 +1,6 @@
 def call(Map params = [:]){
   
- echo "Executing Sonar Qube ${params}"
+ echo "Executing Sonar Qube "
  
  sh 'mvn verify sonar:sonar \
      mvn clean verify sonar:sonar \
