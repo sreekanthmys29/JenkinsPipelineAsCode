@@ -1,6 +1,6 @@
 def call(String mavenGoal){
   
-  echo "Build Goal -------------${goal}"
+  echo "Build Goal -------------${mavenGoal}"
   
   if ("${mavenGoal}" == "clean")
      {
