@@ -1,5 +1,4 @@
-def call(String branchName, String credentialsId, String url) {
+def call(Map params) {
   echo "Git Checkout -------------"
-  
-  git branch: "${branchName}", credentialsId: "${credentialsId}", url: "${url}"
+  git branch: params.branch, credentialsId: params.credentialsId, url: params.url
 }
